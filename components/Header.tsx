@@ -65,6 +65,7 @@ function Header() {
       items-center space-x-6"
         >
           <h3>About</h3>
+
           <h3>Contact</h3>
           <h3 className={renderColorChanger()!}>Follow</h3>
         </div>

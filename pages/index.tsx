@@ -63,7 +63,7 @@ export default function Home({ posts }: Props) {
         </div>
 
         <div>
-          <div className="hidden md:inline-flex object-contain  h-56 w-56  lg:h-full lg:w-full hover:animate-spin ">
+          <div className="hidden  md:inline-flex object-contain  h-56 w-56  lg:h-full lg:w-full hover:scale-110 transition-transform duration-500 ease-in-out ">
             {currentTheme === "dark" ? <Image src={L} /> : <Image src={LW} />}
           </div>
         </div>
